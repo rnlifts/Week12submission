@@ -1,0 +1,378 @@
+header{
+    background-color:gray;
+    margin-top:0px;
+    padding-top: 0px;
+    border-top: 0px;
+}
+
+body{
+    padding:0%;
+    margin-top:0;
+    margin-left: 0;
+    margin-right: 0;
+    background-color:darkolivegreen;
+}
+
+.nav{
+    
+    padding:10px 10%;
+    
+    width:600px;
+  margin-left:700px;
+  position:fixed;
+    top:2;
+  
+    
+}
+
+nav{
+   
+        display:flex;
+        align-items:flex-end; 
+        justify-content: space-between;
+        flex-wrap: wrap;  
+    
+    
+    
+}
+
+
+nav ul li{
+    
+    display:inline-block;
+    list-style: none;
+    margin: 10px 20px;;
+}
+
+nav ul li a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+table{
+    height: 400px;
+    width: 800px;
+}
+
+#Education{
+    font-size: 20px;
+    
+}
+
+#text1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-shadow: shadow 30px 30px black;
+    color:peru;
+    letter-spacing:50px
+}
+
+
+#school{
+    float: right;
+    width:500px;
+    height: 500px;
+    margin-right: 25px;
+    margin-top: 30px;
+}
+
+#college{
+    float: left;
+    width:600px;
+    height: 500px;
+}
+
+#text2{
+    margin-left:40em;
+    margin-right: 20px;
+
+}
+
+#text3{
+    margin-left:40em;
+    margin-right: 20px;
+
+}
+
+#schooling{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left:20em;
+    text-transform: uppercase;
+    
+}
+
+footer{
+    background-color:black;
+    color:#fff;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    
+    height:50px;
+}
+#foot{
+    margin-left: 600px;
+    
+}
+
+.study{
+    
+    height: 500px;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    /* *{
+        border:2px solid black;
+    } */
+    header{
+        background-color:gray;
+        margin-top:0px;
+        padding-top: 0px;
+        border-top: 0px;
+    }
+    
+    body{
+        padding:0%;
+        margin-top:0;
+        margin-left: 0;
+        margin-right: 0;
+        background-color:darkolivegreen;
+    }
+    
+    .nav{
+        
+        padding: 10px 10%;
+        width: 354px;
+        margin-left: -80px;
+        position: fixed;
+        top: 2;
+    }
+      
+        
+    
+    
+    nav{
+       
+            display:flex;
+            align-items:flex-end; 
+            justify-content: space-between;
+            flex-wrap: wrap;  
+        
+        
+        
+    }
+    
+    
+    nav ul li{
+        
+        display:inline-block;
+        list-style: none;
+        margin: 10px 20px;;
+    }
+    
+    nav ul li a{
+        color:#fff;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    
+    table{
+        height: 400px;
+        width: 401px;
+    }
+    
+    #Education{
+        font-size: 20px;
+        
+    }
+    
+    #text1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 60px;
+        text-transform: uppercase;
+        text-shadow: shadow 30px 30px black;
+        color:peru;
+        letter-spacing:-1px
+    }
+    
+    
+    #school{
+        float: right;
+        width:500px;
+        height: 500px;
+        margin-right: 25px;
+        margin-top: 30px;
+    }
+    
+    #college{
+        /* float: left; */
+        width:315px;
+        height: 385px;
+    }
+    
+    #text2{
+        margin-left:1em;
+        margin-right: 20px;
+    
+    }
+    
+    #text3{
+        margin-left:1em;
+        margin-right: 20px;
+    
+    }
+    
+    #schooling{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-left:1em;
+        text-transform: uppercase;
+        
+    }
+    
+    footer{
+        background-color:black;
+        color:#fff;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+        
+        height:50px;
+    }
+    #foot{
+        margin-left: 77px;
+        
+    }
+    
+    .study{
+        
+        height: 900px;
+    }
+    
+
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+
+    header{
+        background-color:gray;
+        margin-top:0px;
+        padding-top: 0px;
+        border-top: 0px;
+    }
+    
+    body{
+        padding:0%;
+        margin-top:0;
+        margin-left: 0;
+        margin-right: 0;
+        background-color:darkolivegreen;
+    }
+    
+    .nav{
+        
+        padding: 10px 10%;
+        width: 354px;
+        margin-left: -80px;
+        position: fixed;
+        top: 2;
+    }
+      
+        
+    
+    
+    nav{
+       
+            display:flex;
+            align-items:flex-end; 
+            justify-content: space-between;
+            flex-wrap: wrap;  
+        
+        
+        
+    }
+    
+    
+    nav ul li{
+        
+        display:inline-block;
+        list-style: none;
+        margin: 10px 20px;;
+    }
+    
+    nav ul li a{
+        color:#fff;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    
+    table{
+        height: 400px;
+        width: 401px;
+    }
+    
+    #Education{
+        font-size: 20px;
+        
+    }
+    
+    #text1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 60px;
+        text-transform: uppercase;
+        text-shadow: shadow 30px 30px black;
+        color:peru;
+        letter-spacing:-1px
+    }
+    
+    
+    #school{
+        float: right;
+        width:500px;
+        height: 500px;
+        margin-right: 25px;
+        margin-top: 30px;
+    }
+    
+    #college{
+        /* float: left; */
+        width:315px;
+        height: 385px;
+    }
+    
+    #text2{
+        margin-left:1em;
+        margin-right: 20px;
+    
+    }
+    
+    #text3{
+        margin-left:1em;
+        margin-right: 20px;
+    
+    }
+    
+    #schooling{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-left:1em;
+        text-transform: uppercase;
+        
+    }
+    
+    footer{
+        background-color:black;
+        color:#fff;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+        
+        height:50px;
+    }
+    #foot{
+        margin-left: 77px;
+        
+    }
+    
+    .study{
+        
+        height: 900px;
+    }
+}

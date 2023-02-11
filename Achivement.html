@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achivement</title>
+    <link rel="stylesheet" href="Achivement.css">
+    <header>
+        <a href="https://www.instagram.com/aaryanlifts_/"> <img id="insta" src="images2/hey.png" width="40"
+            height="40"></a>
+        <a href="https://www.facebook.com/aryan.dangol.52"> <img id="fb" src="images2/hello.png" width="40"
+                height="40"></a>
+                <a href="https://www.linkedin.com/in/aryan-dangol-a1576225a/"> <img id="linkdin" src="images2/Linkedin.webp" width="40"
+                    height="40"></a>
+    </header>
+</head>
+<body>
+    <div class="nav">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="service.html">My Services</a></li>
+            <li><a href="index.html">About Me</a></li>
+            <li><a href="article.html">Article</a></li>
+          <li><a href="contact.html">Contact</a></li>
+
+          </ul>
+        </nav>
+      </div>
+
+      
+
+<!-- <div class="g1"> -->
+    <div class="sliders" style="margin-left: 100px;">
+        <img id="slider1" width="30%" height="900px">
+        <img id="slider2" width="30%" height="900px">
+        <img id="slider3" width="30%" height="900px">
+    </div>
+    <script>
+        var images = ['images2/c1.jpg', 'images2/c2.jpg', 'images2/c3.jpg', 'images2/c4.jpg' ];
+        var images1 = ['images2/k1.jpg', 'images2/k2.jpg', 'images2/k3 (2).jpg', 'images2/K4.jpg'];
+        var images2 = ['images2/b1.jpg', 'images2/b2.jpg', 'images2/b3.jpg', 'images2/b4.jpg'];
+        var time = 2000;
+        var index1 = 0;
+        var index2 = 0;
+        var index3 = 0;
+
+        function slideshow1() {
+            document.getElementById("slider1").src = images[index1];
+            index1 = (index1 + 1) % images.length;
+            setTimeout(slideshow1, time);
+        }
+
+        function slideshow2() {
+            document.getElementById("slider2").src = images1[index2];
+            index2 = (index2 + 1) % images.length;
+            setTimeout(slideshow2, time);
+        }
+
+        function slideshow3() {
+            document.getElementById("slider3").src = images2[index3];
+            index3 = (index3 + 1) % images.length;
+            setTimeout(slideshow3, time);
+        }
+
+        window.onload = function() {
+            slideshow1();
+            slideshow2();
+            slideshow3();
+        }
+    </script>
+    <footer>
+        <p id="foot">&copy;2022 all rights reserved</p>
+    </footer>
+</body>
+</html>
